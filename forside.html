@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Alices touchmenu</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.css" integrity="sha512-4rPgyv5iG0PZw8E+oRdfN/Gq+yilzt9rQ8Yci2jJ15rAyBmF0HBE4wFjBkoB72cxBeg63uobaj1UcNt/scV93w==" crossorigin="anonymous"
+    referrerpolicy="no-referrer" />
+    <link rel="icon" href="images/logo-kopi.png" type="image/png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="content">
+    <div class="fast">
+      <div class="vejrtekst">
+        <div id="result"></div>
+        <div id="vejrbillede"></div>
+      </div>
+      <div class="langWrap" class="skiftsprog">
+        <a href="#" language='dansk' class="active"><img id="dansk" src="images/dansk.png" alt="">/ </a>
+        <a href="#" language='english'><img id="engelsk" src="images/engelsk.png" alt=""></a>
+      </div>
+    </div>
+
+    <div class="left">
+      <div class="indhold">
+        <p id="valgtret" class="bestilling">Bestilling</p>
+        <div class="valg" id="valg"></div>
+        <div id="madliste"></div>
+      </div>
+    </div>
+    <div class="left2">
+      <div id="ialt"></div>
+      <a href="kvittering.html"><button class="betal" class="button" id="betal" type="button" name="button">Betal</button></a>
+      <button class="ryd" class="button" id="slet">Ryd bestilling</button>
+    </div>
+
+    <div class="menu">
+      <div class="menupunkter">
+        <a href="#section1">
+          <img class="menubillede" src="images/smorrebrod.png" alt="">
+          <h4 class="mforret">Forretter</h4>
+        </a>
+        <a href="#section2">
+          <img class="menubillede" src="images/laks.png" alt="">
+          <h4 class="mhovedret">Hovedretter</h4>
+        </a>
+        <a href="#section3">
+          <img class="menubillede" src="images/tiramisu.png" alt="">
+          <h4 class="mdesserter">Desserter</h4>
+        </a>
+      </div>
+    </div>
+
+    <div id="fullPage">
+        <div class="section s1">
+          <div class="flex">
+
+            <div class="right">
+              <h2 class="forretter">Forretter</h2>
+
+              <div class="ret">
+                <div class="kort" id="ret1">
+                  <img class="billede" id="knap" src="images/salat-min.png" alt="">
+                  <h3 class="fret1">Grøn salat</h3>
+                  <p class="fpris1">Pris: 49 kr.</p>
+                </div>
+                <div class="kort" id="ret2">
+                  <img class="billede" id="knap2" src="images/ksalat.png" alt="">
+                  <h3 class="fret2">Salat m. kylling</h3>
+                  <p class="fpris2">Pris: 59 kr.</p>
+                </div>
+                <div class="kort" id="ret3">
+                  <img class="billede" id="knap3" src="images/karry-min.png" alt="">
+                  <h3 class="fret3">Karrysuppe</h3>
+                  <p class="fpris3">Pris: 59 kr.</p>
+                </div>
+              </div>
+
+              <div class="ret">
+                <div class="kort" id="ret4">
+                  <img class="billede" id="knap4" src="images/bread-min.png" alt="">
+                  <h3 class="fret4">Hvidløgsbrød</h3>
+                  <p class="fpris4">Pris: 49 kr.</p>
+                </div>
+                <div class="kort" id="ret5">
+                  <img class="billede" id="knap5" src="images/suppe-min.png" alt="">
+                  <h3 class="fret5">Tomatsuppe</h3>
+                  <p class="fpris5">Pris: 49 kr.</p>
+                </div>
+                <div class="kort" id="ret6">
+                  <img class="billede" id="knap6" src="images/flatbread.png" alt="">
+                  <h3 class="fret6">Fladbrød</h3>
+                  <p class="fpris6">Pris: 49 kr.</p>
+                </div>
+              </div>
+
+              <div class="ret">
+                <div class="kort" id="ret7">
+                  <img class="billede" id="knap7" src="images/tapas.png" alt="">
+                  <h3 class="fret7">Tapas</h3>
+                  <p class="fpris7">Pris: 79 kr.</p>
+                </div>
+                <div class="kort" id="ret8">
+                  <img class="billede" id="knap8" src="images/smorrebrod.png" alt="">
+                  <h3 class="fret8">Smørrebrød</h3>
+                  <p class="fpris8">Pris: 69 kr.</p>
+                </div>
+                <div class="kort" id="ret9">
+                  <img class="billede" id="knap9" src="images/bruschetta.png" alt="">
+                  <h3 class="fret9">Bruschetta</h3>
+                  <p class="fpris9">Pris: 49 kr.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="section s2">
+          <div class="flex">
+
+            <div class="right">
+              <h2 class="hovedretter">Hovedretter</h2>
+
+              <div class="ret">
+                <div class="kort" id="ret10">
+                  <img class="billede" id="knap10" src="images/laks.png" alt="">
+                  <h3 class="hret1">Laksefilet</h3>
+                  <p class="hpris1">Pris: 149 kr.</p>
+                </div>
+                <div class="kort" id="ret11">
+                  <img class="billede" id="knap11" src="images/beef.png" alt="">
+                  <h3 class="hret2">Herregårdsbøf</h3>
+                  <p class="hpris2">Pris: 159 kr.</p>
+                </div>
+                <div class="kort" id="ret12">
+                  <img class="billede" id="knap12" src="images/pasta.png" alt="">
+                  <h3 class="hret3">Spaghetti Carbonarra</h3>
+                  <p class="hpris3">Pris: 159 kr.</p>
+                </div>
+              </div>
+
+              <div class="ret" id="ret13">
+                <div class="kort">
+                  <img class="billede" id="knap13" src="images/pastabolo.png" alt="">
+                  <h3 class="hret4">Spaghetti Bolognese</h3>
+                  <p class="hpris4">Pris: 149 kr.</p>
+                </div>
+                <div class="kort" id="ret14">
+                  <img class="billede" id="knap14" src="images/veggie.png" alt="">
+                  <h3 class="hret5">Vegetarburger</h3>
+                  <p class="hpris5">Pris: 159 kr.</p>
+                </div>
+                <div class="kort" id="ret15">
+                  <img class="billede" id="knap15" src="images/burger.png" alt="">
+                  <h3 class="hret6">Cheeseburger</h3>
+                  <p class="hpris6">Pris: 149 kr.</p>
+                </div>
+              </div>
+
+              <div class="ret">
+                <div class="kort" id="ret16">
+                  <img class="billede" id="knap16" src="images/nachos.png" alt="">
+                  <h3 class="hret7">Nachos m. kylling</h3>
+                  <p class="hpris7">Pris: 179 kr.</p>
+                </div>
+                <div class="kort" id="ret17">
+                  <img class="billede" id="knap17" src="images/pizza.png" alt="">
+                  <h3 class="hret8">Pepperoni pizza</h3>
+                  <p class="hpris8">Pris: 169 kr.</p>
+                </div>
+                <div class="kort" id="ret18">
+                  <img class="billede" id="knap18" src="images/vpizza.png" alt="">
+                  <h3 class="hret9">Vegetar pizza</h3>
+                  <p class="hpris9">Pris: 149 kr.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="section s3">
+          <div class="flex">
+
+            <div class="right">
+              <h2 class="desserter">Desserter</h2>
+
+              <div class="ret">
+                <div class="kort" id="ret19">
+                  <img class="billede" id="knap19" src="images/creme.png" alt="">
+                  <h3 class="dret1">Créme Brûlée</h3>
+                  <p class="dpris1">Pris: 49 kr.</p>
+                </div>
+                <div class="kort" id="ret20">
+                  <img class="billede" id="knap20" src="images/tiramisu.png" alt="">
+                  <h3 class="dret2">Tiramisu</h3>
+                  <p class="dpris2">Pris: 49 kr.</p>
+                </div>
+                <div class="kort" id="ret21">
+                  <img class="billede" id="knap21" src="images/lava.png" alt="">
+                  <h3 class="dret3">Flydende chokoladekage</h3>
+                  <p class="dpris3">Pris: 49 kr.</p>
+                </div>
+              </div>
+
+              <div class="ret">
+                <div class="kort" id="ret22">
+                  <img class="billede" id="knap22" src="images/pandekager.png" alt="">
+                  <h3 class="dret4">Pandekager</h3>
+                  <p class="dpris4">Pris: 49 kr.</p>
+                </div>
+                <div class="kort" id="ret23">
+                  <img class="billede" id="knap23" src="images/æblekage.png" alt="">
+                  <h3 class="dret5">Æblekage</h3>
+                  <p class="dpris5">Pris: 49 kr.</p>
+                </div>
+                <div class="kort" id="ret24">
+                  <img class="billede" id="knap24" src="images/donut.png" alt="">
+                  <h3 class="dret6">Jordbærdonut</h3>
+                  <p class="dpris6">Pris: 49 kr.</p>
+                </div>
+              </div>
+
+              <div class="ret">
+                <div class="kort" id="ret25">
+                  <img class="billede" id="knap25" src="images/is.png" alt="">
+                  <h3 class="dret7">Is-sandwich</h3>
+                  <p class="dpris7">Pris: 49 kr.</p>
+                </div>
+                <div class="kort" id="ret26">
+                  <img class="billede" id="knap26" src="images/chokolade.png" alt="">
+                  <h3 class="dret8">Chokoladeis</h3>
+                  <p class="dpris8">Pris: 49 kr.</p>
+                </div>
+                <div class="kort" id="ret27">
+                  <img class="billede" id="knap27" src="images/sandkage.png" alt="">
+                  <h3 class="dret9">Sandkage</h3>
+                  <p class="dpris9">Pris: 49 kr.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.js" integrity="sha512-gSf3NCgs6wWEdztl1e6vUqtRP884ONnCNzCpomdoQ0xXsk06lrxJsR7jX5yM/qAGkPGsps+4bLV5IEjhOZX+gg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+  </script>
+  <!-- scripts -->
+  <script src="js/js.js"></script>
+  <script src="js/oversaet.js"></script>
+
+</body>
+
+</html>

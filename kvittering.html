@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/kvittering.css">
+  <link rel="icon" href="images/logo-kopi.png" type="image/png">
+  <title>Kvittering</title>
+</head>
+
+<body>
+  <div class="wrap">
+    <h1>Tak for din bestilling!</h1>
+    <!-- bestillingsnummer -->
+    <h3>Du har nummer</h3>
+    <div id="nummer"></div>
+    <!-- kvittering -->
+    <h3>Her kan du se din ordre:</h3>
+    <div id="visListe"></div>
+    <div id="total"></div>
+    <!-- tilbageknap -->
+    <a href="index.html"><button id="klik" type="button" name="button">Gå tilbage</button></a>
+
+  </div>
+
+
+  <script>
+    // valgte retter + samlede pris
+    visListe.innerHTML = localStorage.getItem("liste")
+    total.innerHTML = localStorage.getItem("pris")
+
+    // giver et random tal mellem 20 og 120
+    nummer.innerHTML = Math.floor(Math.random() * 100) + 20
+  </script>
+</body>
+
+</html>
