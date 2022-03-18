@@ -1,0 +1,57 @@
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
+
+  #myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+
+  .top {
+    font-family: 'Montserrat Alternates', sans-serif;
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    color: #262626;
+  }
+
+  #velkommen {
+    margin-top: 48vw;
+    font-size: 5vw;
+  }
+
+  #velkommen2 {
+    margin-top: 33vw;
+    font-size: 4vw;
+  }
+
+  .vejrtekst {
+    font-size: 2.3vw;
+    display: flex;
+    align-items: center;
+    color: black;
+    font-family: 'Montserrat Alternates', sans-serif;
+  }
+
+  .vejrikon {
+    width: 5vw;
+    padding-left: 1vw;
+  }
+
+  .fast {
+    position: fixed;
+    z-index: 3;
+    right: 3vw;
+    top: 3vw;
+  }
+
+  a, a:hover, a:focus, a:active{
+    text-decoration: none;
+  }
+
+  #klik {
+    margin-top: 28vw;
+    font-size: 2.3vw;
+    color: black;
+  }

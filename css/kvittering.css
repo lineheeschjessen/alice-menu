@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
+
+html {
+    background-color: #f2f2f2;
+    overflow: scroll;
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-align: center;
+}
+
+.wrap {
+  background-color: white;
+  margin-top: 7vw;
+  margin-left: 15vw;
+  margin-right: 15vw;
+  margin-bottom: 7vw;
+  box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  text-align: center;
+  padding-top: 6vw;
+  margin-bottom: 8vw;
+}
+
+h3 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+.billede {
+  max-width: 200px;
+  max-height: 200px;
+  margin: 0;
+}
+
+#visListe {
+  text-align: center;
+}
+
+#total {
+  padding-top: 3vw;
+  padding-bottom: 3vw;
+  font-size: 4vw;
+  color: #bf4c22;
+}
+
+#nummer {
+  font-size: 10vw;
+  margin-bottom: 5vw;
+  color: #bf4c22;
+}
+
+button {
+  width: 12vw;
+  height: 3.5vw;
+  color: #ffffff;
+  padding: 0.7em 1.7em;
+  font-size: 1.2vw;
+  border-radius: 0.5em;
+  background: #bf4c22;
+  border: 1px solid #bf4c22;
+  transition: all .3s;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  margin: 10px;
+}
+
+button:hover {
+  border: 1px solid white;
+}
+
+button:active {
+  box-shadow: 4px 4px 12px #c5c5c5,
+    -4px -4px 12px #ffffff;
+}
+
+#klik {
+  margin-bottom: 10vw;
+}

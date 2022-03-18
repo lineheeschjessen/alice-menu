@@ -1,0 +1,258 @@
+/* -------- css start -------- */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
+
+/* ---------- Font-indstillinger/farver ---------- */
+
+h2 {
+  font-family: 'Montserrat Alternates', sans-serif;
+  text-align: center;
+  font-size: 6vw;
+  padding-top: 9vw;
+  margin: 0;
+  color: #bf4c22;
+}
+
+h3 {
+  margin: 0;
+  font-family: 'Montserrat Alternates', sans-serif;
+  text-align: center;
+  color: black;
+}
+
+h4 {
+  margin: 0;
+  padding-bottom: 10px;
+  font-family: 'Montserrat Alternates', sans-serif;
+  text-align: center;
+  color: black;
+}
+
+h5 {
+  margin: 0;
+  padding-top: 1vw;
+  font-family: 'Montserrat Alternates', sans-serif;
+  text-align: center;
+  color: black;
+}
+
+p {
+  margin: 0;
+  padding-top: 1vw;
+  font-family: 'Montserrat Alternates', sans-serif;
+  text-align: center;
+  color: #bf4c22;
+}
+
+a, a:hover, a:focus {
+  text-decoration: none;
+}
+
+/* ---------- Tekst før der er valgt en ret ---------- */
+
+#valgtret {
+  color: black;
+  font-weight: bold;
+  font-size: 2.6vw;
+  padding-bottom: 2vw;
+}
+
+#valg {
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 1.3vw;
+  color: black;
+}
+
+#ialt {
+  height: 2vh;
+  font-size: 2vw;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.flex {
+  display: flex;
+}
+
+/* ---------- Indkøbskurv til venstre ---------- */
+
+.left {
+  padding: 4vw;
+  width: 18vw;
+  height: 64vh;
+  background-color: white;
+  position: fixed;
+  z-index: 3;
+  overflow: scroll;
+  text-align: center;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.03);
+  font-size: 1.8vw;
+}
+
+.left2 {
+  padding: 4vw;
+  width: 18vw;
+  height: 11vh;
+  background-color: white;
+  position: fixed;
+  top:69vh;
+  z-index: 3;
+  text-align: center;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.03);
+  padding-bottom: 0;
+}
+
+#madliste {
+  text-align: center;
+  font-size: 0.8em;
+}
+
+
+/* ---------- Indhold til højre - menukort ---------- */
+
+.right {
+  padding-bottom: 28vw;
+}
+
+.s1 {
+  background-color: #f2f2f2;
+  background-size: cover;
+  padding-left: 28vw;
+  padding-right: 5vw;
+}
+
+.s2 {
+  background-color: #f2f2f2;
+  background-size: cover;
+  padding-left: 28vw;
+  padding-right: 5vw;
+}
+
+.s3 {
+  background-color: #f2f2f2;
+  background-size: cover;
+  padding-left: 28vw;
+  padding-right: 5vw;
+}
+
+/* ---------- library-indstillinger - farve på skrift ---------- */
+
+.fp-tooltip {
+  color: #2e2e2e !important;
+}
+
+/* ---------- Menukort styling ---------- */
+.ret {
+  display: flex;
+  justify-content: space-around;
+}
+
+.kort {
+  padding-top: 3vw;
+  margin: 1vw;
+  font-size: 1.6vw;
+}
+
+.billede {
+  max-width: 90%;
+  max-height: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+/* ---------- Navigationsmenu styling ---------- */
+.menu {
+  bottom: 0;
+  height: 25vw;
+  width: 100vw;
+  background-color: white;
+  position: fixed;
+  z-index: 5;
+  font-size: 2.5vw;
+}
+
+.menupunkter {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+}
+
+.menubillede {
+  max-width: 20vw;
+  max-height: 20vw;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+/* ---------- dansk/engelsk-knap styling ---------- */
+.fast {
+  position: fixed;
+  z-index: 3;
+  right: 3vw;
+  top: 3vw;
+}
+
+.langWrap {
+  position: fixed;
+  top: 4vw;
+  left: 30vw;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 3vw;
+}
+
+#dansk {
+  width: 2.5vw;
+  margin-right: 0.5vw;
+}
+
+#engelsk {
+  width: 2.5vw;
+}
+
+/* ---------- vejr-API styling ---------- */
+.vejrtekst {
+  font-size: 2.3vw;
+  display: flex;
+  align-items: center;
+    color: black;
+}
+
+.vejrikon {
+  width: 5vw;
+  padding-left: 1vw;
+}
+
+/* ---------- indkøbskurv-knapper - styling ---------- */
+
+button {
+  width: 12vw;
+  height: 3.5vw;
+  color: #ffffff;
+  padding: 0.7em 1.7em;
+  font-size: 1.2vw;
+  border-radius: 0.5em;
+  background: #bf4c22;
+  border: 1px solid #bf4c22;
+  transition: all .3s;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  margin: 10px;
+}
+
+button:hover {
+  border: 1px solid white;
+}
+
+button:active {
+  box-shadow: 4px 4px 12px #c5c5c5,
+    -4px -4px 12px #ffffff;
+}
+
+#slet {
+  background: #ffffff;
+  border: 1px solid #ffffff;
+  color: black;
+}
+
+.pris {
+  color: #bf4c22;
+}
