@@ -1,5 +1,8 @@
 # alice-menu
-alice's restaurant menuside
+
+Skal ses i skærmstørrelsen 820px X 1180 px (ipad air)
+
+Alice's restaurant menuside
 
 Min API virker kun gennem dette link: 
 
